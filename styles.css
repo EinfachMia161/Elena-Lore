@@ -212,7 +212,7 @@ code {
 }
 
 /* Body text and redactions */
-.body p, .proc p, .addendum p { margin-bottom: 1.05em; }
+.body p, .proc p, .addendum p { margin-bottom: 1.05em; white-space: pre-wrap; }
 .proc { background: var(--panel); border-left: 3px solid var(--cls-keter); padding: .2rem 1.1rem .6rem; border-radius: var(--radius); }
 .addendum { background: var(--panel-2); padding: .2rem 1.1rem .6rem; border-radius: var(--radius); }
 .log-body { white-space: pre-wrap; font-family: var(--mono); font-size: .92rem; background: var(--panel); padding: 1rem 1.1rem; border-radius: var(--radius); border: 1px solid var(--rule); }

@@ -1,59 +1,1542 @@
 {
   "title": "Elena Vance",
-  "subtitle": "Foundation Archive. Documents, chronology and personal logs for the Elena Vance file.",
+  "subtitle": "Foundation Archive. Documents, chronology and personal logs for the Elena Vance file. Civil Networks SCP-RP, MTF Nu-7 \"Hammer Down\".",
   "categories": [
-    { "id": "characters", "name": "Personnel & Subjects", "blurb": "People on file, including Elena." },
-    { "id": "places", "name": "Sites & Locations", "blurb": "Facilities, cities and landmarks." },
-    { "id": "factions", "name": "Organizations", "blurb": "Groups, orders and allegiances." },
-    { "id": "events", "name": "Incidents", "blurb": "What happened, and when." },
-    { "id": "items", "name": "Objects", "blurb": "Items and artifacts under containment." },
-    { "id": "concepts", "name": "Phenomena & Theory", "blurb": "How the anomalous world works." }
+    {
+      "id": "characters",
+      "name": "Personnel",
+      "blurb": "People on file, including Elena and the people around her."
+    },
+    {
+      "id": "places",
+      "name": "Sites",
+      "blurb": "Locations where the file's events took place."
+    },
+    {
+      "id": "factions",
+      "name": "Organizations",
+      "blurb": "Units, departments and outside groups."
+    },
+    {
+      "id": "events",
+      "name": "Incidents & Records",
+      "blurb": "Operations, reports, transcripts and protocols."
+    },
+    {
+      "id": "items",
+      "name": "Objects",
+      "blurb": "Anomalous objects, recovered documents and keepsakes."
+    },
+    {
+      "id": "concepts",
+      "name": "Phenomena & Theory",
+      "blurb": "How the anomalies work and the procedures built around them."
+    },
+    {
+      "id": "personal",
+      "name": "Personal Papers",
+      "blurb": "Elena's journal, letters and notes, in her own hand."
+    }
   ],
   "entries": [
     {
       "id": "elena-vance",
       "category": "characters",
       "title": "Elena Vance",
-      "summary": "PLACEHOLDER. Replace with Elena's canon file summary.",
+      "summary": "Nu-7 point breacher and anti-armour specialist. Erased from existence by SCP-████; only a handwritten list proves she ever lived.",
       "year": null,
-      "tags": ["personnel"],
-      "clearance": 1,
-      "file": {
-        "designation": "PERS-E-01",
-        "objectClass": "Safe",
-        "containment": [
-          "PLACEHOLDER. Containment or handling procedures for this file go here."
-        ],
-        "addenda": [
-          "PLACEHOLDER addendum. Example of a redacted line: the codename is [[Vantablack]].",
-          "PLACEHOLDER addendum. Restricted addenda can be given a higher clearance in the file's clearance field."
-        ]
-      },
-      "body": [
-        "This is a placeholder file. Edit data/lore.json to replace it with the real record.",
-        "Any file title mentioned in another document links to it automatically. Text in [[double brackets]] is redacted and reveals on click."
+      "tags": [
+        "personnel",
+        "nu-7"
       ],
-      "related": ["placeholder-incident"]
+      "clearance": 3,
+      "body": [
+        "Elena \"Forgotten\" Vance is a 31-year-old Nu-7 point breacher and anti-armour specialist. A former intelligence operative, she was erased from existence by SCP-████ while investigating disappearances. Her family, records and history vanished; only a handwritten list proved she existed. The Foundation recruited her instead of containing her.",
+        "The anomaly left her hard to perceive: hostiles and allies alike lose track of her, so Nu-7 runs roll calls. Amnestics are a danger to her. A Class-C dose made her forget her own name, and even mild doses wipe others' memories of her entirely.",
+        "Ashley \"Forbidden\" Archer was her best friend and the only person who never forgot her. Since Ashley's death, Elena's effect has worsened. She wears Ashley's dog tags, protects her friends fiercely, and lives by one rule: nobody gets left behind. Her greatest fear is being forgotten.",
+        "Name:            Elena Vance\nCodename:        \"Forgotten\"\nPersonnel ID:    ███-████-NU7\nAge:             31\nDate of Birth:   ██/██/19██ (reconstructed, original records lost)\nNationality:     ██████ (unverifiable)\nAssignment:      Mobile Task Force Nu-7 \"Hammer Down\"\nRole:            Assault Operative, Point Breacher, Anti-Armour and Vehicle Support\nClearance:       Level 3\nClassification:  Anomalous Personnel, Monitored\nSite:            Site-██\nStatus:          Active",
+        "PHYSICAL DESCRIPTION",
+        "Vance stands at 1.72 m with a lean, athletic build suited to speed rather than bulk. She has dark brown hair, usually tied back in a low ponytail or braid during deployment, and grey-green eyes that personnel often describe as \"hard to hold onto,\" an effect attributed to her anomaly.",
+        "She bears a thin scar across her left eyebrow from her pre-Foundation service and burn scarring along her right forearm sustained during Operation ████████.",
+        "Before every deployment, Vance writes her full name, \"ELENA VANCE,\" in black marker on her left forearm. She wears the dog tags of the late Agent Ashley Archer on her vest beside her own, and carries a worn notebook in her chest rig at all times.",
+        "Note: A physical photograph is attached to this file. Digital photographs of Vance have proven unrecognizable to reviewing personnel. – Site Records",
+        "BACKGROUND",
+        "Before the Foundation, Vance served as a field intelligence operative for the ██████ government, specializing in covert entry, close-quarters combat, surveillance, and hostile-environment operations. A surviving fragment of her former commanding officer's notes describes her as \"methodical, aggressive when necessary, and nearly impossible to track.\"",
+        "All official documentation of this service no longer exists.",
+        "INCIDENT ████-VANCE",
+        "On ██/██/20██, Vance was deployed to the town of █████████ to investigate a series of unexplained disappearances. No missing persons reports had been filed. Families of the missing showed no awareness that anyone was gone. Vance's field notes describe dinner tables set for three where there had been four, office desks with no names, and family photographs with gaps where people used to stand.",
+        "She began keeping a handwritten list of the missing. According to her testimony, the list grew shorter every morning, though she never crossed anyone out.",
+        "Vance traced the phenomenon to a structure beneath the town's church, later designated SCP-████. SCP-████ consumes the memory of an individual's existence, erasing them from records, photographs, and the recollection of others.",
+        "Vance made direct contact with SCP-████. She survived. Her existence did not.",
+        "When she returned home, her key no longer fit the lock. A stranger lived in her house and had for years. Her mother answered the door and asked if she was lost. Her identification, service history, and birth records had ceased to exist.",
+        "Foundation recovery teams located Vance on ██/██/20██, sleeping in her vehicle at the edge of the town perimeter. She was the only person who still remembered the missing. Her identity could not be confirmed until a Foundation researcher matched her handwriting to the recovered list. Every name on it matched a victim of SCP-████. The final name on the list was Elena Vance.",
+        "It remains the only surviving proof of her life before the Foundation.",
+        "RECRUITMENT",
+        "SCP-████ was contained. Vance's existence was not restored.",
+        "With no identity, family, or record to return to, Vance could not be released into civilian life. Initial recommendations called for her containment. The Ethics Committee intervened and pushed for her to be offered Foundation service instead. She accepted.",
+        "Given her combat background and anomalous properties, she was assigned to MTF Nu-7 \"Hammer Down.\"",
+        "She received her codename on her first deployment, after half her fireteam forgot she was on the operation until she opened a door from the inside. It was meant as a joke. It stuck.",
+        "EQUIPMENT AND LOADOUT",
+        "Vance's standard deployment loadout consists of an ARX assault rifle fitted with a holographic sight and foregrip, a MATADOR shoulder-fired launcher for armoured vehicles and fortified positions, and a compact sidearm worn on her thigh. She carries door charges for rapid entry, sticky grenades, smoke grenades, flashbangs, a combat knife, and a medical kit.",
+        "She also carries a repair tool for armoured vehicles. Vance is one of the few Nu-7 operatives certified for armoured vehicle repair and is frequently assigned to vehicle support during convoy and assault operations.",
+        "She wears a standard Nu-7 plate carrier and ballistic helmet. Her name is written inside the helmet.",
+        "Her personal items include her journal, Agent Archer's dog tags, and her identification card, which has her name engraved on the back as a backup. The journal contains her name, the names of her squadmates, and short entries about each day. She writes in it before and after every operation.",
+        "Vance does not carry amnestics. This has been approved by Nu-7 Command.",
+        "COMBAT PROFILE",
+        "Vance is Nu-7's primary point breacher and is first through the door on nearly every assault. Hostiles tend to lose track of her during the chaos of entry, allowing her to clear rooms and reach flanking positions before being targeted. She is most effective at short to medium range inside structures.",
+        "Outside of breaching, she serves as the unit's anti-armour support, using the MATADOR and sticky grenades against hostile vehicles and fortified positions, often from angles hostiles never see her reach. She keeps Nu-7's armoured vehicles running mid-operation and has repaired them under fire on multiple occasions.",
+        "She fights aggressively but never breaks formation, a discipline drilled in during her time partnered with Agent Archer. In that pairing, Vance breached while Archer suppressed and disoriented hostiles. Since Archer's death, Vance has struggled to find a partner who matches that rhythm.",
+        "Her strengths are stealth entry, room clearing, flanking, anti-armour, vehicle support, and endurance in prolonged engagements. Her weaknesses are long-range combat, open terrain, and coordination problems when allies lose track of her.",
+        "PSYCHOLOGICAL PROFILE",
+        "Vance is fiercely loyal. Once she considers someone a friend, that bond is permanent. She has taken risks, covered for squadmates, and argued with command on behalf of the people she cares about.",
+        "Because people forget her so easily, every real connection matters deeply to her. She remembers birthdays, favourite drinks, and small things a friend mentioned once. Being remembered matters to her, so she makes sure the people around her feel remembered too.",
+        "Since the loss of Agent Archer, she has become quietly protective. She notices when someone goes quiet, skips meals, or stops joking. She checks in on people, sometimes awkwardly, because she believes she missed the signs once and refuses to again.",
+        "She is calm and precise in combat but restless outside of it. Stillness is when grief and the fear of fading catch up with her. She copes with dry, understated humour, often joking about her own anomaly (\"Don't worry, you'll forget I said that\"). Those close to her know it is half a joke and half a wound.",
+        "She is guarded with strangers and slow to trust, but warm and deeply caring once trust is earned. She still occasionally refers to Archer in the present tense before correcting herself. She has no interest in \"moving on.\" She intends to carry Ashley with her.",
+        "Her deepest fear is being forgotten. She writes her name everywhere, keeps her journal, and visibly struggles when a friend fails to recognize her. Her personal rule since Archer's death is simple: nobody gets left behind.",
+        "LIKES\nStrong black coffee. Old rock music, particularly a playlist Archer made for her. Late-night cafeteria conversations with squadmates. Being called by her name rather than her codename. Writing in her journal. Training drills, which are one of the few times her mind goes quiet.",
+        "DISLIKES\nBeing introduced to someone she has already met. Empty barracks. Researchers referring to her as a \"subject.\" Silence over comms. Anyone speaking poorly of Ashley.",
+        "TRIGGERS\nIf a friend fails to recognize her, she may go quiet or abruptly leave. If someone fails to answer a roll call, she will go looking for them regardless of orders. She avoids a specific area of the MTF loop since Archer's death and does not explain why. Seeing amnestics prepared causes visible distress. She has been observed checking her own personnel file for her name multiple times per week.",
+        "GOALS\nTo be remembered. To keep Nu-7 together and ensure no one is lost the way Ashley was. To honour Ashley and make sure she is not forgotten either. To learn more about SCP-████ and whether her former life can ever be recovered. Unofficially, to find the entity that changed Ashley. Vance believes it played a role in Archer's decline and has submitted ███ unanswered requests to investigate.",
+        "EVALUATIONS",
+        "\"Agent Vance's primary fear is not death but erasure. Archer's passing has removed the one individual who reliably remembered her. Vance has begun treating combat deployments as the only setting where she 'feels real.' She treats every squadmate as if they might disappear tomorrow. I think that's because, for her, people always have. Recommend continued monitoring and mandatory counselling.\"\n   – Dr. ███████, Site-██ Psychological Department",
+        "\"Vance is the best breacher I've ever commanded. She's also the only operative I have to count twice. Every team leader will confirm her presence at insertion and extraction. No exceptions. We don't lose another one.\"\n   – Nu-7 Command",
+        "\"Recommend continued monitoring. Her loyalty is an asset. Her grief is a risk.\"\n   – Internal Security Department"
+      ],
+      "related": [
+        "ashley-archer",
+        "pebble-rose",
+        "andrew-spencer",
+        "r-weaver",
+        "commander-west",
+        "mtf-nu7",
+        "quiet-congregation",
+        "vance-null",
+        "amnestic-tests",
+        "roll-call-protocol",
+        "the-town"
+      ],
+      "file": {
+        "designation": "███-████-NU7",
+        "objectClass": "Monitored",
+        "containment": [
+          "ANOMALOUS PROPERTIES",
+          "Vance retains residual effects from SCP-████ exposure. Individuals around her, hostile or allied, intermittently fail to perceive or keep track of her, especially under stress. In combat, hostiles have lost visual contact with her at close range, allowing her to breach and flank undetected.",
+          "Allied personnel occasionally forget she is present. Some who have known her for months have reintroduced themselves to her. Surveillance cameras record her normally, but personnel reviewing the footage frequently fail to notice her. Her name has repeatedly failed to remain on her locker, and her personnel file has been found blank three times.",
+          "Her effect is not absolute. Thermal and motion sensors detect her normally, as only human perception is affected. People in direct physical contact with her rarely lose track of her. Personnel who regularly say her name aloud retain memory of her longer, which is the basis for Nu-7's roll call protocol. Entities or individuals who perceive others through memory rather than sight are unaffected, as Agent Archer was.",
+          "Her effect intensifies during emotional distress. Since the death of Agent Archer, Nu-7 has reported a noticeable increase, including operators walking past her in the barracks without noticing her and at least one instance of her being left off a mission roster entirely.",
+          "Vance is required to carry identification marked with her name at all times.",
+          "AMNESTIC INTERACTION",
+          "Class-A and Class-B amnestics have reduced effect on Vance. Researchers theorize that residual SCP-████ properties protect her memories, as the anomaly consumes memory rather than altering it.",
+          "Class-C and above are prohibited. During testing on ██/██/20██, a Class-C dose caused Vance to briefly forget her own name. Her anomalous effect spiked immediately, and personnel in the room lost track of her for 47 minutes while she remained seated in the same chair. She was only located after reading the name written on her forearm aloud. Further testing was blocked by the Ethics Committee.",
+          "Memories of Vance held by others are unusually fragile. Even a mild Class-A dose given to a witness of an unrelated event often erases all memory of Vance from that day, sometimes longer. Personnel who receive amnestics must be re-briefed on her identity. On ██/██/20██, a Nu-7 operative given Class-B amnestics after a breach forgot Vance entirely and drew a weapon on her during extraction. The incident was resolved without casualties.",
+          "Any amnestic use on Vance requires Site Director approval and a Nu-7 operative present as an anchor.",
+          "Vance refuses to carry or administer amnestics unless directly ordered. When asked why, she stated: \"I know what it's like to be taken out of someone's head. I'm not doing that to anyone if I can help it.\""
+        ]
+      }
     },
     {
-      "id": "placeholder-incident",
-      "category": "events",
-      "title": "Placeholder incident",
-      "summary": "PLACEHOLDER. Add a year to place this incident on the chronology.",
+      "id": "ashley-archer",
+      "category": "characters",
+      "title": "Ashley Archer",
+      "summary": "Agent Ashley \"Forbidden\" Archer. Vance's partner and the only person who never forgot her. Died inside Site-██.",
       "year": null,
-      "tags": ["incident"],
-      "clearance": 3,
-      "file": {
-        "designation": "INC-0000",
-        "objectClass": "Euclid",
-        "containment": [],
-        "addenda": []
-      },
-      "body": [
-        "This file is clearance Level 3. Clearance 1 and 2 readers see only the restricted notice.",
-        "Undated files are listed at the bottom of the chronology. Files with a numeric year appear in order."
+      "tags": [
+        "personnel",
+        "deceased"
       ],
-      "related": ["elena-vance"]
+      "clearance": 4,
+      "body": [
+        "Vance and Archer were assigned to the same fireteam shortly after Archer's recruitment into Nu-7. Command initially paired them so Vance could monitor Archer for signs of influence from the entity Archer had escaped.",
+        "The pairing became a close friendship. Archer was the only known individual completely unaffected by Vance's anomaly. Because Archer recognized people through their memories rather than their appearance, she never once forgot Vance. Vance has described her as \"the only person who never had to be reminded I was there.\"",
+        "Archer called Vance her most trusted asset. Fireteam logs show the two operating as a single unit during raids, with multiple commendations for operations against ██████ and the Chaos Insurgency. Vance was the only Nu-7 operative to openly defend Archer during disciplinary reviews concerning her interrogation conduct, despite being aware of where Archer had learned those methods.",
+        "Vance was aware that Archer, acting on orders from Major Pebble \"Nutz\" Rose, conducted an interrogation of R. Weaver of ISD. Vance was also aware that Archer did not resist the order, and that part of her, the part shaped by the entity, wanted to carry it out. Vance believes the guilt from that interrogation was a significant factor in what followed."
+      ],
+      "related": [
+        "elena-vance",
+        "pebble-rose",
+        "r-weaver",
+        "incident-archer-death",
+        "archer-disciplinary",
+        "dog-tags"
+      ],
+      "file": {
+        "addenda": [
+          [
+            "ADDENDUM – DEATH OF AGENT ARCHER",
+            "On ██/██/20██, Agent Ashley \"Forbidden\" Archer was found deceased within Site-██.\nCause of death: [REDACTED].",
+            "Archer left written notes addressed to several personnel, including Nu-7 as a whole. [DATA EXPUNGED]",
+            "Vance was among the first personnel to respond. She did not speak during the debriefing and requested no leave. Three days later, she entered a restricted area to retrieve Archer's personal belongings, including the dog tags she now wears."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "pebble-rose",
+      "category": "characters",
+      "title": "Pebble Rose",
+      "summary": "Major Pebble \"Nutz\" Rose. Nu-7 command and Vance's close friend. He gave the order for Archer's interrogation of Weaver.",
+      "year": null,
+      "tags": [
+        "personnel",
+        "nu-7"
+      ],
+      "clearance": 2,
+      "body": [
+        "MAJOR PEBBLE \"NUTZ\" ROSE\nA close and trusted friend. Vance knows that Rose gave the order for Archer to interrogate Weaver, and that Archer carried it out. She does not blame him for Archer's death. In her view, Ashley was already carrying more than any order could have given her, and the weight of what she did to Weaver was hers alone to bear. Vance has made sure Rose knows she does not hold it against him. She cares deeply about him and keeps a quiet eye on how he is holding up.",
+        "   \"You gave an order, Pebble. She chose what to do with it. It was never you.\"\n   – Agent Vance"
+      ],
+      "related": [
+        "elena-vance",
+        "ashley-archer",
+        "r-weaver",
+        "interrogation-weaver",
+        "mtf-nu7"
+      ]
+    },
+    {
+      "id": "andrew-spencer",
+      "category": "characters",
+      "title": "Andrew Spencer",
+      "summary": "CSG Andrew \"Sterben\" Spencer. One of Vance's closest friends, and one she quietly worries about.",
+      "year": null,
+      "tags": [
+        "personnel",
+        "nu-7"
+      ],
+      "clearance": 2,
+      "body": [
+        "CSG ANDREW \"STERBEN\" SPENCER\nOne of Vance's closest friends. Since Archer's death, she has grown increasingly worried about him. She checks in on him more than she lets on and notices when he goes quiet. Spencer is one of the few people she trusts to watch her back without needing a roll call."
+      ],
+      "related": [
+        "elena-vance",
+        "mtf-nu7"
+      ]
+    },
+    {
+      "id": "r-weaver",
+      "category": "characters",
+      "title": "R. Weaver",
+      "summary": "ISD operative. The target of Archer's interrogation, and later the one who stayed with Vance.",
+      "year": null,
+      "tags": [
+        "personnel",
+        "isd"
+      ],
+      "clearance": 2,
+      "body": [
+        "R. WEAVER (ISD)\nWeaver was the target of Archer's interrogation, carried out under Major Rose's orders. Vance knows what was done to him. She also knows what Weaver did, and why he did it. She is not angry with him. She simply does not know what to think of him. Their interactions are brief and careful, and neither has brought up Archer directly. ISD records show Vance has requested no action regarding Weaver.",
+        "   \"I'm not mad at him. I just don't know who he is to me anymore.\"\n   – Agent Vance"
+      ],
+      "related": [
+        "elena-vance",
+        "ashley-archer",
+        "pebble-rose",
+        "interrogation-weaver",
+        "isd"
+      ]
+    },
+    {
+      "id": "commander-west",
+      "category": "characters",
+      "title": "Commander West",
+      "summary": "Nu-7 commander. Vance respects his leadership and keeps her distance from him.",
+      "year": null,
+      "tags": [
+        "personnel",
+        "nu-7"
+      ],
+      "clearance": 2,
+      "body": [
+        "COMMANDER WEST\nVance holds Commander West in high regard and respects his leadership without question. Despite this, she actively avoids him when possible, keeping interactions short and strictly professional. When asked why, she has declined to answer."
+      ],
+      "related": [
+        "elena-vance",
+        "mtf-nu7"
+      ]
+    },
+    {
+      "id": "the-town",
+      "category": "places",
+      "title": "The Town",
+      "summary": "The town of █████████, where people began disappearing without anyone noticing.",
+      "year": null,
+      "tags": [
+        "site"
+      ],
+      "clearance": 2,
+      "body": [
+        "On ██/██/20██, Vance was deployed to the town of █████████ to investigate a series of unexplained disappearances. No missing persons reports had been filed. Families of the missing showed no awareness that anyone was gone. Vance's field notes describe dinner tables set for three where there had been four, office desks with no names, and family photographs with gaps where people used to stand.",
+        "She began keeping a handwritten list of the missing. According to her testimony, the list grew shorter every morning, though she never crossed anyone out.",
+        "Vance traced the phenomenon to a structure beneath the town's church, later designated SCP-████. SCP-████ consumes the memory of an individual's existence, erasing them from records, photographs, and the recollection of others.",
+        "Vance made direct contact with SCP-████. She survived. Her existence did not.",
+        "When she returned home, her key no longer fit the lock. A stranger lived in her house and had for years. Her mother answered the door and asked if she was lost. Her identification, service history, and birth records had ceased to exist.",
+        "Foundation recovery teams located Vance on ██/██/20██, sleeping in her vehicle at the edge of the town perimeter. She was the only person who still remembered the missing. Her identity could not be confirmed until a Foundation researcher matched her handwriting to the recovered list. Every name on it matched a victim of SCP-████. The final name on the list was Elena Vance.",
+        "It remains the only surviving proof of her life before the Foundation."
+      ],
+      "related": [
+        "elena-vance",
+        "quiet-congregation",
+        "handwritten-list"
+      ]
+    },
+    {
+      "id": "provisional-site",
+      "category": "places",
+      "title": "Provisional Site-███",
+      "summary": "The church beneath which SCP-████ is sealed. Access requires Level 4 clearance.",
+      "year": null,
+      "tags": [
+        "site",
+        "containment"
+      ],
+      "clearance": 4,
+      "body": [
+        "SCP-████ is contained in a sealed chamber beneath the church of █████████, now designated Provisional Site-███. Access requires Level 4 clearance. Personnel entering must carry written identification and be accompanied by an anchor who repeats their name aloud at ██-second intervals."
+      ],
+      "related": [
+        "quiet-congregation"
+      ]
+    },
+    {
+      "id": "mtf-nu7",
+      "category": "factions",
+      "title": "MTF Nu-7 \"Hammer Down\"",
+      "summary": "Vance's unit. The people who run roll calls so nobody is left behind.",
+      "year": null,
+      "tags": [
+        "unit"
+      ],
+      "clearance": 1,
+      "body": [
+        "NU-7 \"HAMMER DOWN\" — FAMILY\nHer home. They're the people she holds closest, the ones who do roll calls just to make sure she's never left behind. Since Ashley, she's become the one checking on everyone else."
+      ],
+      "related": [
+        "elena-vance",
+        "pebble-rose",
+        "andrew-spencer",
+        "commander-west",
+        "roll-call-protocol"
+      ]
+    },
+    {
+      "id": "isd",
+      "category": "factions",
+      "title": "Internal Security Department",
+      "summary": "ISD. Watches Vance closely and has reviewed her for \"instability.\"",
+      "year": null,
+      "tags": [
+        "department"
+      ],
+      "clearance": 2,
+      "body": [
+        "ISD (INTERNAL SECURITY DEPARTMENT) — TENSE\nISD watches her closely. An operative nobody can reliably track or remember is an internal security nightmare. She's been questioned more than once on whether she could slip past checkpoints unnoticed (she could). Elena respects their job but resents being treated as a suspect. After Ashley's death, ISD reviewed her for\n\"instability,\" which she took personally."
+      ],
+      "related": [
+        "r-weaver",
+        "elena-vance"
+      ]
+    },
+    {
+      "id": "research-department",
+      "category": "factions",
+      "title": "Research Department",
+      "summary": "Researchers who see Vance as a subject, and a few who have been kind to her.",
+      "year": null,
+      "tags": [
+        "department"
+      ],
+      "clearance": 2,
+      "body": [
+        "RESEARCH DEPARTMENT — MIXED\nSome researchers see her as a fascinating subject, which makes her uncomfortable. Others have been genuinely kind, especially the researcher who matched her handwriting and proved she existed. She's protective of that person. She avoids testing sessions unless ordered and refuses anything involving amnestics."
+      ],
+      "related": [
+        "elena-vance",
+        "amnestic-tests"
+      ]
+    },
+    {
+      "id": "ethics-committee",
+      "category": "factions",
+      "title": "Ethics Committee",
+      "summary": "Pushed for Vance to be offered service instead of containment, and blocked high-class amnestic testing.",
+      "year": null,
+      "tags": [
+        "department"
+      ],
+      "clearance": 2,
+      "body": [
+        "ETHICS COMMITTEE — QUIETLY GRATEFUL\nThe Ethics Committee pushed for her to be offered service instead of containment, and they blocked high-class amnestic testing on her. She's one of the few Nu-7 operatives with a positive view of them, though she'll defend her squad's methods if pushed."
+      ],
+      "related": [
+        "elena-vance",
+        "amnestic-tests"
+      ]
+    },
+    {
+      "id": "gsd-security",
+      "category": "factions",
+      "title": "GSD (Security)",
+      "summary": "Guards who like Vance, though they often forget she has already passed through.",
+      "year": null,
+      "tags": [
+        "department"
+      ],
+      "clearance": 1,
+      "body": [
+        "GSD (SECURITY) — FRIENDLY, WITH FRICTION\nDay-to-day interactions are good. She likes the guards and often chats with them on patrol. The friction is practical: guards forget she's passed through checkpoints, or don't recognize her and stop her at gates. She's patient with it and usually jokes it off."
+      ],
+      "related": [
+        "elena-vance"
+      ]
+    },
+    {
+      "id": "e-11",
+      "category": "factions",
+      "title": "E-11 \"Nine-Tailed Fox\"",
+      "summary": "A fellow combat MTF. Friendly rivals and fellow fighters, and some knew Archer.",
+      "year": null,
+      "tags": [
+        "unit"
+      ],
+      "clearance": 1,
+      "body": [
+        "E-11 \"NINE-TAILED FOX\" — STRONG CAMARADERIE\nFellow combat MTF, so there's mutual respect. She's fought alongside E-11 during breaches and gets along well with their operators. There's friendly rivalry over which unit does the \"real\" fighting. Some E-11 members knew Ashley and share the grief with her."
+      ],
+      "related": [
+        "elena-vance",
+        "ashley-archer"
+      ]
+    },
+    {
+      "id": "d-class",
+      "category": "factions",
+      "title": "D-Class Personnel",
+      "summary": "Vance treats D-Class with basic decency.",
+      "year": null,
+      "tags": [
+        "personnel"
+      ],
+      "clearance": 1,
+      "body": [
+        "D-CLASS — UNEXPECTEDLY HUMANE\nUnlike Ashley, Elena treats D-Class with basic decency. She knows what it's like to have no name and no past. She won't go out of her way to help them, but she won't be cruel either."
+      ],
+      "related": [
+        "elena-vance"
+      ]
+    },
+    {
+      "id": "chaos-insurgency",
+      "category": "factions",
+      "title": "Chaos Insurgency",
+      "summary": "Hostile. Vance's anger over Archer's death goes out on them.",
+      "year": null,
+      "tags": [
+        "hostile"
+      ],
+      "clearance": 1,
+      "body": [
+        "CHAOS INSURGENCY / GOIs — HOSTILE\nPure enemies. Her anomaly makes her a nightmare for them in raids. Ashley died within the Foundation, but Elena still carries a lot of anger, and hostile GOIs are where it goes."
+      ],
+      "related": [
+        "elena-vance",
+        "op-chaos-raid"
+      ]
+    },
+    {
+      "id": "op-chaos-raid",
+      "category": "events",
+      "title": "Operation Chaos Raid",
+      "summary": "A Nu-7 assault on a Chaos Insurgency weapons cache. Vance breached alone.",
+      "year": null,
+      "tags": [
+        "operation"
+      ],
+      "clearance": 2,
+      "body": [
+        "OPERATION ████████ – CHAOS INSURGENCY RAID\nNu-7 assaulted a CI weapons cache at ██████. Vance breached alone and reached the command room before CI forces registered her presence, recovering ██ intact intelligence documents. During exfiltration, a CI operative ignited a fuel line, resulting in the burn scarring on her right forearm.\nResult: Success. No Nu-7 casualties."
+      ],
+      "related": [
+        "elena-vance",
+        "chaos-insurgency"
+      ]
+    },
+    {
+      "id": "op-mirror-hall",
+      "category": "events",
+      "title": "Operation Mirror Hall",
+      "summary": "Containment of an anomalous structure. Archer carried an injured Vance to extraction.",
+      "year": null,
+      "tags": [
+        "operation"
+      ],
+      "clearance": 2,
+      "body": [
+        "OPERATION MIRROR HALL – JOINT OPERATION WITH AGENT ARCHER\nContainment of an anomalous structure at ████████. Archer identified hostile personnel by memory while Vance cleared rooms. During the operation, [DATA EXPUNGED]. Archer carried an injured Vance ██0 metres to extraction.\nResult: Success. Both operatives commended.",
+        "   \"I owe her my life. She never let me forget it either.\" – Agent Vance"
+      ],
+      "related": [
+        "elena-vance",
+        "ashley-archer"
+      ]
+    },
+    {
+      "id": "incident-breach",
+      "category": "events",
+      "title": "Incident ███-BREACH",
+      "summary": "A multi-SCP breach at Site-██. Vance was left behind and held a corridor alone.",
+      "year": null,
+      "tags": [
+        "incident"
+      ],
+      "clearance": 2,
+      "body": [
+        "During a multi-SCP breach, Vance was left behind in Heavy Containment after her fireteam forgot her presence during evacuation. She held a corridor alone for ██ minutes before E-11 reinforcements arrived.\nResult: Mandatory Nu-7 roll call protocol established."
+      ],
+      "related": [
+        "elena-vance",
+        "roll-call-protocol"
+      ],
+      "file": {
+        "designation": "INC-███-BREACH"
+      }
+    },
+    {
+      "id": "disciplinary-record",
+      "category": "events",
+      "title": "Disciplinary Record: Elena Vance",
+      "summary": "Three infractions, all of them loyalty rather than malice.",
+      "year": null,
+      "tags": [
+        "record"
+      ],
+      "clearance": 2,
+      "body": [
+        "DISCIPLINARY RECORD",
+        "██/██/20██ – Left assigned position during an operation to search for a missing\n             squadmate. Verbal warning.",
+        "██/██/20██ – Refused a direct order to administer Class-B amnestics to a civilian\n             witness. Written reprimand, later overturned by the Ethics Committee.",
+        "██/██/20██ – Entered a restricted area to retrieve Agent Archer's personal\n             belongings following her death. [REDACTED]. No action taken.",
+        "Overall record: Satisfactory. All infractions stem from loyalty rather than malice."
+      ],
+      "related": [
+        "elena-vance"
+      ]
+    },
+    {
+      "id": "roll-call-log",
+      "category": "events",
+      "title": "Roll Call Log: Operation ████████",
+      "summary": "Vance was missed at Checkpoint 2. Nobody noticed until she spoke up on comms.",
+      "year": null,
+      "tags": [
+        "record",
+        "roll-call"
+      ],
+      "clearance": 2,
+      "body": [
+        "MTF NU-7 \"HAMMER DOWN\" – DEPLOYMENT ROLL CALL LOG",
+        "Operation: ████████ | Date: ██/██/20██ | Logged by: Nu-7 Fireteam Lead ██████",
+        "Insertion (0412):\n  ██████, █.   – Present\n  ████████, █. – Present\n  █████, █.    – Present\n  ~~██████~~ Vance, E. – Present  (added by hand)",
+        "Checkpoint 1 (0431):\n  ██████, █.   – Present\n  ████████, █. – Present\n  █████, █.    – Present\n  Vance, E.    – Present",
+        "Checkpoint 2 (0458):\n  ██████, █.   – Present\n  ████████, █. – Present\n  █████, █.    – Present\n  (No fourth entry recorded)",
+        "Checkpoint 3 (0517):\n  ██████, █.   – Present\n  ████████, █. – Present\n  █████, █.    – Present\n  Vance, E.    – Present  (note: \"she was there the whole time\")",
+        "Extraction (0602):\n  4/4 confirmed. Vance confirmed by physical contact.",
+        "Fireteam Lead note: Checkpoint 2 missed. Nobody noticed until she spoke up on comms. Third time this month. Recommending roll call interval be reduced to ██ minutes."
+      ],
+      "related": [
+        "elena-vance",
+        "roll-call-protocol"
+      ]
+    },
+    {
+      "id": "psych-session",
+      "category": "events",
+      "title": "Psychological Evaluation: Session Transcript",
+      "summary": "A mandatory session after Archer's death. Vance will not speak about her, and the fear of fading comes up instead.",
+      "year": null,
+      "tags": [
+        "transcript"
+      ],
+      "clearance": 3,
+      "body": [
+        "PSYCHOLOGICAL EVALUATION – SESSION TRANSCRIPT",
+        "Subject: Agent Elena Vance | Interviewer: Dr. ███████\nSite-██ Psychological Department\nSession: 4 of ██ (mandatory, following death of Agent A. Archer)",
+        "Dr. ███████:  Thank you for coming, Agent Vance.\nVance:        You remembered my name. That's a good start.\nDr. ███████:  It's written on my notes. I made sure of it.\nVance:        Smart.",
+        "Dr. ███████:  How have you been sleeping?\nVance:        Fine.\nDr. ███████:  Your squad says you're up at 0300 most nights.\nVance:        Then I've been sleeping fine until 0300.",
+        "Dr. ███████:  Let's talk about Agent Archer.\nVance:        [pause, ██ seconds] What about her?\nDr. ███████:  You haven't spoken about her in any of our sessions.\nVance:        Because every time I talk about her, she sounds more like a story\n              and less like a person. I don't want that.",
+        "Dr. ███████:  Your file mentions she was the only person unaffected by your\n              anomaly.\nVance:        She never forgot me. Not once. Do you know what that's like?\n              Everyone else, I have to remind. She just knew.\nDr. ███████:  And now?\nVance:        Now I write my name on my arm and hope people read it.",
+        "Dr. ███████:  Your squad reports your effect has worsened.\nVance:        I've noticed.\nDr. ███████:  Does that frighten you?\nVance:        Dying doesn't frighten me. Fading does. One day I'll walk into the\n              barracks and nobody will look up. Not because they're ignoring me.\n              Because there's nothing there for them to see.",
+        "Dr. ███████:  What keeps you grounded?\nVance:        Roll calls. Pebble. Sterben. Coffee. My journal. [pause] Her dog\n              tags. They're heavier than mine. I don't know why.",
+        "Dr. ███████:  Is there anything you'd like to ask me?\nVance:        Will you remember this session next week?\nDr. ███████:  I'll read my notes.\nVance:        That's not what I asked.",
+        "Session ended.",
+        "Interviewer's notes: Subject is high-functioning but carrying unprocessed grief. Strong attachment to remaining friendships. Fear of erasure is the central issue and has intensified since Archer's death. Recommend continued sessions and that Nu-7 maintain current roll call protocol. Subject responds well to being addressed by name."
+      ],
+      "related": [
+        "elena-vance",
+        "ashley-archer",
+        "pebble-rose",
+        "andrew-spencer"
+      ]
+    },
+    {
+      "id": "amnestic-tests",
+      "category": "events",
+      "title": "Amnestic Tolerance Testing",
+      "summary": "Class-A, B and C amnestics tested on Vance. A Class-C dose made her forget her own name.",
+      "year": null,
+      "tags": [
+        "testing",
+        "restricted"
+      ],
+      "clearance": 4,
+      "body": [
+        "TEST LOG – AMNESTIC TOLERANCE TESTING",
+        "Subject: Agent Elena Vance | Supervising Researcher: Dr. ███████\nDate: ██/██/20██\nPurpose: Determine the effect of amnestic compounds on subject's anomalous properties.",
+        "TEST 1 – CLASS-A AMNESTIC\nResult: Minimal effect. Subject reported slight disorientation for ██ minutes. All memories intact. No change in anomalous effect.",
+        "TEST 2 – CLASS-B AMNESTIC\nResult: Subject lost recollection of the previous ██ hours. Anomalous effect increased slightly; two researchers briefly failed to locate subject in the observation room. Effect subsided after ██ minutes.",
+        "TEST 3 – CLASS-C AMNESTIC\nResult: Subject became unresponsive. When asked her name, subject stated: \"I don't know.\"",
+        "Anomalous effect spiked immediately. All personnel in the test chamber, including the supervising researcher, lost track of the subject.",
+        "Subject remained seated in the same chair for the entire duration.",
+        "Personnel searched the test wing for 47 MINUTES. Security footage showed the subject in the chair throughout; reviewing staff did not register her presence until the footage was paused.",
+        "Subject was located after she read the name written on her left forearm aloud.",
+        "Subject statement (post-test): \"I looked at my arm and there was a word there. I didn't know it was me until I said it.\"",
+        "Conclusion: Class-C amnestics and above present a critical risk to subject identity and site security.",
+        "Recommendation: Prohibit Class-C and above. Require Site Director approval and a Nu-7 anchor for any further amnestic use."
+      ],
+      "related": [
+        "elena-vance",
+        "amnestic-classes",
+        "ethics-committee",
+        "research-department"
+      ]
+    },
+    {
+      "id": "site-records-memo",
+      "category": "events",
+      "title": "Site Records Memo: Personnel File Anomaly",
+      "summary": "Vance's personnel file has been found blank for the third time.",
+      "year": null,
+      "tags": [
+        "memo"
+      ],
+      "clearance": 2,
+      "body": [
+        "SITE RECORDS MEMO – PERSONNEL FILE ANOMALY",
+        "To: Site Director, Nu-7 Command, ISD\nFrom: Site Records Office\nDate: ██/██/20██\nSubject: Recurrence of blank file – Agent E. Vance",
+        "On ██/██/20██, during routine audit, the personnel file for Agent Elena Vance (ID ███-████-NU7) was found blank. This is the THIRD recorded occurrence.",
+        "The file folder, label and filing location were intact. All pages were present. All pages were empty.",
+        "Previous occurrences: ██/██/20██ and ██/██/20██.",
+        "The file has been recreated from the Nu-7 backup copy and the physical photograph held in [REDACTED].",
+        "Of note: the clerk who discovered the blank file initially logged it as \"unassigned folder\" and moved it to the disposal tray. It was recovered by Agent Vance herself, who has been observed checking the file weekly.",
+        "Recommendations:\n  - Increase backup copies to three, held in separate locations.\n  - Weekly verification by a named staff member.\n  - Retain physical photograph at all times; digital copies are unreliable.",
+        "Clerk's handwritten note: \"I don't remember putting it in the tray. She said thank you anyway.\""
+      ],
+      "related": [
+        "elena-vance",
+        "handwritten-list"
+      ]
+    },
+    {
+      "id": "incident-archer-death",
+      "category": "events",
+      "title": "Incident Report: Death of Agent Archer",
+      "summary": "Agent Archer was found dead within Site-██. Her last notes are expunged.",
+      "year": null,
+      "tags": [
+        "incident"
+      ],
+      "clearance": 4,
+      "body": [
+        "INCIDENT REPORT – DEATH OF AGENT ASHLEY ARCHER",
+        "Incident ID: ███-██ | Classification: Level 4 | Date: ██/██/20██",
+        "Subject: Agent Ashley \"Forbidden\" Archer, MTF Nu-7\nStatus: Deceased\nLocation: Site-██, MTF Loop, [REDACTED]\nCause of death: [REDACTED]",
+        "SUMMARY\nAt ██:██, a general message was sent by Agent Archer via site comms reading:\n[DATA EXPUNGED].\nAt ██:██, Agent Archer was found deceased at [REDACTED].",
+        "First responder: Agent Elena Vance, MTF Nu-7.\nAdditional responders: [REDACTED], [REDACTED].",
+        "Agent Archer left written notes addressed to:\n  - Major Pebble \"Nutz\" Rose\n  - MTF Nu-7 (collective)\n  - R. Weaver, ISD\nContents: [DATA EXPUNGED]",
+        "Contributing factors: Ongoing internal review regarding the interrogation of R. Weaver. Prior reports of influence from an unidentified anomalous entity.\n[REDACTED].",
+        "ACTIONS TAKEN\n  - Area sealed and cleared by ISD.\n  - Personal effects secured. Note: dog tags were later removed by Agent Vance\n    (see Disciplinary Record).\n  - Mandatory counselling ordered for all Nu-7 personnel.",
+        "Nu-7 Command note: Archer was one of ours. Whatever she carried, we should have seen it. We'll be doing better."
+      ],
+      "related": [
+        "ashley-archer",
+        "elena-vance",
+        "pebble-rose",
+        "r-weaver",
+        "dog-tags",
+        "archer-disciplinary"
+      ],
+      "file": {
+        "designation": "INC-███-██"
+      }
+    },
+    {
+      "id": "interrogation-weaver",
+      "category": "events",
+      "title": "Interrogation Log: R. Weaver",
+      "summary": "Archer's interrogation of R. Weaver under orders from Major Rose. The methods exceeded authorised parameters.",
+      "year": null,
+      "tags": [
+        "interrogation",
+        "restricted"
+      ],
+      "clearance": 4,
+      "body": [
+        "INTERROGATION LOG",
+        "Subject: R. Weaver, ISD\nConducted by: Agent Ashley Archer, MTF Nu-7\nAuthorised by: Major Pebble \"Nutz\" Rose\nDate: ██/██/20██ | Location: [REDACTED]\nClearance: Level 4",
+        "Purpose: [REDACTED]",
+        "██:██ – Interrogation begins.\nArcher: [DATA EXPUNGED]\nWeaver: [DATA EXPUNGED]\n██:██ – [DATA EXPUNGED]\nArcher: \"████ ██ ████ █████ ████████.\"\nWeaver: [Subject did not respond.]\n██:██ – [DATA EXPUNGED]\n██:██ – Interrogation ended by [REDACTED].",
+        "Outcome: [REDACTED]",
+        "Medical note: R. Weaver admitted to Medical Bay at ██:██. Injuries: [REDACTED].",
+        "Internal Review note: Methods used during this interrogation exceeded authorised parameters. Investigation opened into Agent Archer and Major Rose. Review closed following the death of Agent Archer.",
+        "Handwritten note (Archer, recovered): \"I didn't mean to. I didn't want to.\""
+      ],
+      "related": [
+        "ashley-archer",
+        "r-weaver",
+        "pebble-rose",
+        "archer-disciplinary"
+      ]
+    },
+    {
+      "id": "archer-disciplinary",
+      "category": "events",
+      "title": "Disciplinary Review: Ashley Archer",
+      "summary": "Vance speaks in Archer's defence. Her statement is entered into the record.",
+      "year": null,
+      "tags": [
+        "transcript"
+      ],
+      "clearance": 3,
+      "body": [
+        "DISCIPLINARY REVIEW – TRANSCRIPT EXCERPT",
+        "Subject: Agent Ashley Archer\nPanel: [REDACTED], [REDACTED], [REDACTED] | Date: ██/██/20██\nWitness: Agent Elena Vance",
+        "Panel:  Agent Vance, you've asked to speak on Agent Archer's behalf.\nVance:  I have.\nPanel:  You're aware of the conduct under review?\nVance:  I'm aware of all of it. Probably more than you are.",
+        "Panel:  Do you dispute the reports?\nVance:  No. She did those things. I'm not here to tell you she didn't.\nPanel:  Then why are you here?\nVance:  Because nobody else is. You're reviewing a file. I'm telling you about\n        the person.",
+        "Vance:  She carried me ██0 metres through hostile fire at Mirror Hall. She never\n        forgot my name, not once, when half this unit needs a list. Whatever's in\n        her head, she fights it every single day. Some days it wins. Most days it\n        doesn't. You only ever hear about the days it does.",
+        "Panel:  You understand where she learned these methods.\nVance:  Yes. And so does she. That's why she's still trying.",
+        "Panel:  Is there anything else?\nVance:  If you punish her, do it knowing she's already harder on herself than\n        you'll ever be.",
+        "Outcome: Formal reprimand. Mandatory oversight during interrogations. Agent Vance's statement entered into the record."
+      ],
+      "related": [
+        "ashley-archer",
+        "elena-vance",
+        "interrogation-weaver"
+      ]
+    },
+    {
+      "id": "vance-null",
+      "category": "events",
+      "title": "Contingency Protocol: VANCE-NULL",
+      "summary": "The response if Vance's effect becomes total, or if she turns against the Foundation.",
+      "year": null,
+      "tags": [
+        "protocol",
+        "restricted"
+      ],
+      "clearance": 4,
+      "body": [
+        "In the event that Agent Vance's anomalous effect intensifies to the point of permanent undetectability, or she becomes hostile to Foundation interests, the following measures apply:",
+        "All personnel are to recite her name and description during site-wide announcements. Thermal and motion-tracking systems are to be activated across Site-██. [REDACTED] is to be deployed.",
+        "Should Vance be determined fully lost to SCP-████, her file is to be preserved in physical form in [REDACTED], and her name added to the Memorial Wall.",
+        "   \"If we can't find her, we remember her. That's the protocol.\"\n   – Nu-7 Command"
+      ],
+      "related": [
+        "elena-vance",
+        "mtf-nu7"
+      ],
+      "file": {
+        "designation": "VANCE-NULL"
+      }
+    },
+    {
+      "id": "recovery-report",
+      "category": "events",
+      "title": "Recovery Team Report",
+      "summary": "The team that found Vance asleep in her car at the edge of the perimeter.",
+      "year": null,
+      "tags": [
+        "recovery"
+      ],
+      "clearance": 3,
+      "body": [
+        "Team: MTF [REDACTED] | Date: ██/██/20██ | Location: Perimeter of █████████",
+        "At ██:██, the recovery team located a civilian vehicle parked at the edge of the containment perimeter. A female occupant was found asleep in the driver's seat.",
+        "Initial assessment: Subject was armed (sidearm, holstered) and carrying no identification. Subject's wallet contained a blank ID card, cash and a handwritten list of names.",
+        "On waking, subject identified herself as \"Elena Vance\" and stated she was a government intelligence operative. No record of this individual could be found.",
+        "Subject was cooperative but distressed. She stated that her family no longer recognised her and that her home was occupied by strangers. She repeatedly asked team members to \"say my name back to me.\"",
+        "Of note: two team members lost track of the subject during transport despite her being seated between them. Both described the experience as \"forgetting she was in the car.\"",
+        "Subject was transported to Site-██ for evaluation.",
+        "Team lead note: She kept asking if we'd remember her tomorrow. I said yes. I wrote her name on my glove so I wouldn't be lying."
+      ],
+      "related": [
+        "elena-vance",
+        "the-town",
+        "handwritten-list"
+      ]
+    },
+    {
+      "id": "quiet-congregation",
+      "category": "items",
+      "title": "The Quiet Congregation",
+      "summary": "A stone chamber beneath a church. Those who sit in its pews are forgotten by everyone.",
+      "year": null,
+      "tags": [
+        "scp"
+      ],
+      "clearance": 4,
+      "body": [
+        "DESCRIPTION",
+        "SCP-████ is a stone chamber containing ██ wooden pews arranged facing a blank wall. Individuals who sit in or spend prolonged time near the pews begin to be forgotten by others. Records, photographs and recollections of the affected individual gradually disappear, until no trace of their existence remains.",
+        "Affected individuals are not physically harmed. They simply stop having existed.",
+        "The pews appear to \"fill\" over time. Personnel report seeing figures seated in them in peripheral vision; these figures are never visible when looked at directly.",
+        "DISCOVERY",
+        "SCP-████ was discovered following Incident ████-Vance, during which a field intelligence operative investigating unexplained disappearances in █████████ made direct contact with the anomaly. See personnel file: Agent E. Vance.",
+        "Of the ██ residents recorded on the operative's handwritten list, none have been recovered."
+      ],
+      "related": [
+        "provisional-site",
+        "elena-vance",
+        "the-town",
+        "handwritten-list"
+      ],
+      "file": {
+        "designation": "SCP-████",
+        "objectClass": "Euclid",
+        "containment": [
+          "SPECIAL CONTAINMENT PROCEDURES",
+          "SCP-████ is contained in a sealed chamber beneath the church of █████████, now designated Provisional Site-███. Access requires Level 4 clearance. Personnel entering must carry written identification and be accompanied by an anchor who repeats their name aloud at ██-second intervals.",
+          "Personnel must not remain in the chamber for longer than ██ minutes. Any personnel who fail to exit on time are to be considered lost. Do not search for them without an anchor."
+        ],
+        "addenda": [
+          [
+            "ADDENDUM",
+            "Agent Vance is the only known individual to survive full contact with SCP-████ while retaining her own memories. Her residual anomalous properties are documented in her personnel file.",
+            "Researcher's note: We don't know how many people are sitting in those pews. We only know the ones she wrote down."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "handwritten-list",
+      "category": "items",
+      "title": "Handwritten List",
+      "summary": "The list of the missing that proves Vance existed. The last name on it is hers.",
+      "year": null,
+      "tags": [
+        "evidence"
+      ],
+      "clearance": 3,
+      "body": [
+        "RECOVERED DOCUMENT – HANDWRITTEN LIST",
+        "Recovered from: Vehicle belonging to unidentified female (later identified as E. Vance)\nCondition: Water-damaged, multiple pages",
+        "PAGE 1:",
+        "  Missing – Do not cross out\n  - Thomas ██████ – baker, Main St.\n  - Margaret ██████ – his wife?? (check)\n  - ██████ ██████ – school teacher\n  - The boy from the post office. Name? Tim? Tom?\n  - ██████ ██████\n  - ██████ ██████ – nobody at her house knew her. Her shoes were still by the door.",
+        "PAGE 2 (different ink, rushed):",
+        "  List is shorter. I didn't cross anyone out.\n  Writing them again:\n  - Thomas ██████\n  - ██████ ██████\n  - ██████ ██████\n  I can't remember the teacher's name. It was here yesterday.",
+        "PAGE 3 (shaky handwriting):",
+        "  Church. Under the church.\n  They're sitting down there.\n  Don't sit down.",
+        "FINAL LINE:",
+        "  - Elena Vance"
+      ],
+      "related": [
+        "elena-vance",
+        "the-town",
+        "quiet-congregation"
+      ],
+      "file": {
+        "designation": "RECOVERED-LIST"
+      }
+    },
+    {
+      "id": "dog-tags",
+      "category": "items",
+      "title": "Dog Tags of Ashley Archer",
+      "summary": "Archer's dog tags. Vance wears them beside her own.",
+      "year": null,
+      "tags": [
+        "keepsake"
+      ],
+      "clearance": 1,
+      "body": [
+        "marker on her left forearm. She wears the dog tags of the late Agent Ashley Archer on her vest beside her own, and carries a worn notebook in her chest rig",
+        "debriefing and requested no leave. Three days later, she entered a restricted area to retrieve Archer's personal belongings, including the dog tags she now wears.",
+        "  - Personal effects secured. Note: dog tags were later removed by Agent Vance\n    (see Disciplinary Record)."
+      ],
+      "related": [
+        "elena-vance",
+        "ashley-archer",
+        "incident-archer-death"
+      ]
+    },
+    {
+      "id": "memorial-wall",
+      "category": "items",
+      "title": "Memorial Wall",
+      "summary": "The Nu-7 entry for Agent Archer, and a note from Vance beneath it.",
+      "year": null,
+      "tags": [
+        "memorial"
+      ],
+      "clearance": 1,
+      "body": [
+        "AGENT ASHLEY \"FORBIDDEN\" ARCHER\nMTF Nu-7 \"Hammer Down\"",
+        "She came back from somewhere no one else could.\nShe fought what followed her every day.\nShe never forgot a single one of us.",
+        "We won't forget her.",
+        "   [Beneath it, in small handwriting:]\n   E.V. – \"Track nine.\""
+      ],
+      "related": [
+        "ashley-archer",
+        "elena-vance"
+      ]
+    },
+    {
+      "id": "roll-call-protocol",
+      "category": "concepts",
+      "title": "Roll Call Protocol",
+      "summary": "Nu-7 says Vance's name aloud at every roll call, because that keeps memories of her longer.",
+      "year": null,
+      "tags": [
+        "protocol"
+      ],
+      "clearance": 1,
+      "body": [
+        "Her effect is not absolute. Thermal and motion sensors detect her normally, as only human perception is affected. People in direct physical contact with her rarely lose track of her. Personnel who regularly say her name aloud retain memory of her longer, which is the basis for Nu-7's roll call protocol. Entities",
+        "If a friend fails to recognize her, she may go quiet or abruptly leave. If someone fails to answer a roll call, she will go looking for them regardless of orders.",
+        "Result: Mandatory Nu-7 roll call protocol established.",
+        "Fireteam Lead note: Checkpoint 2 missed. Nobody noticed until she spoke up on comms. Third time this month. Recommending roll call interval be reduced to ██ minutes."
+      ],
+      "related": [
+        "elena-vance",
+        "mtf-nu7",
+        "incident-breach",
+        "roll-call-log"
+      ]
+    },
+    {
+      "id": "amnestic-classes",
+      "category": "concepts",
+      "title": "Amnestic Classes",
+      "summary": "How amnestics affect Vance, and everyone who remembers her. Class-C and above are prohibited.",
+      "year": null,
+      "tags": [
+        "restricted",
+        "protocol"
+      ],
+      "clearance": 4,
+      "body": [
+        "Class-A and Class-B amnestics have reduced effect on Vance. Researchers theorize that residual SCP-████ properties protect her memories, as the anomaly consumes memory rather than altering it.",
+        "Class-C and above are prohibited. During testing on ██/██/20██, a Class-C dose caused Vance to briefly forget her own name. Her anomalous effect spiked immediately, and personnel in the room lost track of her for 47 minutes while she remained seated in the same chair. She was only located after reading the name written on her forearm aloud. Further testing was blocked by the Ethics Committee.",
+        "Memories of Vance held by others are unusually fragile. Even a mild Class-A dose given to a witness of an unrelated event often erases all memory of Vance from that day, sometimes longer. Personnel who receive amnestics must be re-briefed on her identity. On ██/██/20██, a Nu-7 operative given Class-B amnestics after a breach forgot Vance entirely and drew a weapon on her during extraction. The incident was resolved without casualties.",
+        "Any amnestic use on Vance requires Site Director approval and a Nu-7 operative present as an anchor.",
+        "Vance refuses to carry or administer amnestics unless directly ordered. When asked why, she stated: \"I know what it's like to be taken out of someone's head. I'm not doing that to anyone if I can help it.\""
+      ],
+      "related": [
+        "elena-vance",
+        "amnestic-tests"
+      ]
+    },
+    {
+      "id": "journal-40",
+      "category": "personal",
+      "title": "Journal Entry 40",
+      "summary": "Elena Vance. Elena Vance. Elena Vance.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 1,
+      "body": [
+        "Elena Vance. Elena Vance. Elena Vance.",
+        "Roll call at 0600. Answered. Sterben said my name first, before the commander did. I don't think he noticed. I did.",
+        "Small things. That's what I hold on to now."
+      ],
+      "related": [
+        "elena-vance"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-040"
+      }
+    },
+    {
+      "id": "journal-41",
+      "category": "personal",
+      "title": "Journal Entry 41",
+      "summary": "Guard at the checkpoint asked for my ID again. Third time this week. Same guard.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 1,
+      "body": [
+        "Guard at the checkpoint asked for my ID again. Third time this week. Same guard.",
+        "I showed him my arm instead. He laughed. I didn't.",
+        "I bought him a coffee afterwards anyway. He looked confused. I think he'd already forgotten why.",
+        "That's fine. He still drank it."
+      ],
+      "related": [
+        "elena-vance"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-041"
+      }
+    },
+    {
+      "id": "journal-42",
+      "category": "personal",
+      "title": "Journal Entry 42",
+      "summary": "Ashley's playlist is on track nine. I keep skipping back to track one so it doesn't end.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 1,
+      "body": [
+        "Ashley's playlist is on track nine. I keep skipping back to track one so it doesn't end.",
+        "If it ends, I'll have to decide whether to play it again. I'm not ready to find out what I'd choose."
+      ],
+      "related": [
+        "elena-vance"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-042"
+      }
+    },
+    {
+      "id": "journal-43",
+      "category": "personal",
+      "title": "Journal Entry 43",
+      "summary": "I walked past her room today. Someone else's name is on the door already. They work fast here.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 1,
+      "body": [
+        "I walked past her room today. Someone else's name is on the door already. They work fast here.",
+        "I wrote hers under it in pencil. Small, so nobody would notice.",
+        "Somebody has to."
+      ],
+      "related": [
+        "elena-vance"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-043"
+      }
+    },
+    {
+      "id": "journal-44",
+      "category": "personal",
+      "title": "Journal Entry 44",
+      "summary": "ISD called me in. \"Routine review,\" they said. They asked if I was stable. If I'd had any \"intrusive thoughts.\" If I'd been near the MTF loop since.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 1,
+      "body": [
+        "ISD called me in. \"Routine review,\" they said. They asked if I was stable. If I'd had any \"intrusive thoughts.\" If I'd been near the MTF loop since.",
+        "I answered every question. Calmly. Politely.",
+        "Then I sat in the bathroom for forty minutes because my hands wouldn't stop shaking.",
+        "Weaver was on the list of reviewers. He didn't come in. I don't know if I'm relieved or angry about that.",
+        "Both, probably."
+      ],
+      "related": [
+        "elena-vance"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-044"
+      }
+    },
+    {
+      "id": "journal-45",
+      "category": "personal",
+      "title": "Journal Entry 45",
+      "summary": "Pebble looked tired. I told him again it wasn't him.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 1,
+      "body": [
+        "Pebble looked tired. I told him again it wasn't him.",
+        "He asked me what I meant.",
+        "He doesn't remember. They caught him and Ashley before it went too far with Weaver, and afterwards they gave him a Class-E. Just like that. Clean. Like the order never happened.",
+        "So every time I tell him it wasn't his fault, he doesn't know what I'm forgiving him for. He just knows Ashley's gone and that I keep saying it like it matters.",
+        "I know what it's like to have something cut out of you. I'd never wish it on anyone. And they did it to him without a second thought, and now I'm the one carrying the part he can't.",
+        "Tonight he told me about his brother. He remembers that part. About what Weaver did to him, back when Weaver was new and had to prove himself in front of people who were watching. Weaver didn't choose it. Pebble said that himself, through his teeth.",
+        "So Weaver hurt his brother because he had to. And Pebble sent Ashley after Weaver because of it. And Pebble doesn't even remember that anymore.",
+        "Nobody in this story wanted to. Everybody did it anyway.",
+        "He asked if I'd forgiven Weaver. I said there was nothing to forgive.",
+        "I don't know if that's true. I don't know whose forgiveness this is.",
+        "I just feel tired."
+      ],
+      "related": [
+        "elena-vance",
+        "ashley-archer"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-045"
+      }
+    },
+    {
+      "id": "journal-46",
+      "category": "personal",
+      "title": "Journal Entry 46",
+      "summary": "Elena Vance. Nu-7. 31. Black coffee.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 1,
+      "body": [
+        "Elena Vance.\nNu-7.\n31.\nBlack coffee.",
+        "Ashley called me her best asset. Then she laughed and said \"friend, I meant friend.\"",
+        "I'm writing this down so I don't lose it.",
+        "I wrote a letter to Weaver tonight. I don't know why. It's in the back of this book. I'm not sending it."
+      ],
+      "related": [
+        "elena-vance",
+        "ashley-archer"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-046"
+      }
+    },
+    {
+      "id": "journal-47",
+      "category": "personal",
+      "title": "Journal Entry 47",
+      "summary": "Elena Vance. Elena Vance. Elena Vance.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 2,
+      "body": [
+        "Elena Vance.\nElena Vance.\nElena Vance.",
+        "I sent it.",
+        "I didn't plan to. I walked past the ISD mailroom and my hand just did it. I stood there for ten minutes afterwards wanting to take it back.",
+        "He answered. Kindly. More kindly than I expected. More kindly than I would have, in his place.",
+        "He said people deserve to be known. To be seen. To be remembered.",
+        "I read that line until the paper went soft.",
+        "How does someone write that after what was done to him? After what he was made to do?",
+        "Maybe he isn't who I thought he was. Maybe I never actually knew who he was. I only knew what happened to him, and what happened because of him.",
+        "And then I think of Ashley, and of Pebble's brother, and of Pebble blaming himself for a wedding when the truth is something he can't even remember. I feel like I'm betraying all of them just by reading Weaver's words twice.",
+        "I have to answer him. I don't know what to say yet.",
+        "I'll figure it out. I always do.",
+        "Elena Vance."
+      ],
+      "related": [
+        "elena-vance",
+        "r-weaver"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-047"
+      }
+    },
+    {
+      "id": "journal-48",
+      "category": "personal",
+      "title": "Journal Entry 48",
+      "summary": "Weaver noticed me.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 2,
+      "body": [
+        "Weaver noticed me.",
+        "I was standing outside his office. I hadn't knocked yet. I hadn't decided if I would. And he looked up and saw me.",
+        "People usually don't.",
+        "The ISD waiting area didn't. I sat there for twenty minutes. Two officers walked past. One nearly sat on me. Nobody asked why I was there.",
+        "But he did.",
+        "I'm writing this on the bench outside his office now. Someone just walked by and looked straight through me, like I'm part of the wall.",
+        "Maybe I am, to everyone else.",
+        "Not to him, though. Not today.",
+        "I should be careful. Being seen feels too good. Things that feel this good usually get taken away.",
+        "Elena Vance.\nElena Vance."
+      ],
+      "related": [
+        "elena-vance",
+        "r-weaver"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-048"
+      }
+    },
+    {
+      "id": "journal-49",
+      "category": "personal",
+      "title": "Journal Entry 49",
+      "summary": "Elena Vance.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 2,
+      "body": [
+        "Elena Vance.",
+        "It started badly.",
+        "There was an anomaly. It found me before I found Weaver. It kept asking me about ground beef, over and over, like it was the most important question in the world. It sounds ridiculous writing it down. It wasn't ridiculous then.",
+        "I panicked. I couldn't breathe. I was crying before I even understood why.",
+        "And then they were there. Weaver and Pebble. They ran to me. Not past me. To me.",
+        "Both of them. Side by side.",
+        "Weaver remembers what Pebble ordered. Pebble doesn't. Pebble remembers what Weaver did to his brother, and thinks Ashley died because of a wedding. And they stood next to each other and put themselves between me and that thing like none of it existed for those few seconds.",
+        "Weaver pulled me into his arms and didn't let go. He kept telling me to breathe with him. In. Out. In. Until I could do it on my own again.",
+        "I've never felt that safe. Not once. Not here, not before here.",
+        "Afterwards, we talked. More than I've talked to anyone since Ashley.",
+        "I told him everything. About her. About the town. About the list, and my name at the bottom of it. About how every morning I check whether people still know me.",
+        "I didn't ask him about Pebble's brother. Or whether he knows Pebble blames himself for the wrong thing. I wanted to. I think he knew I wanted to. Neither of us said it.",
+        "I cried again. He didn't let go that time either.",
+        "He said he'd always remember me.",
+        "People have said that before. They meant it, too. And then they forgot. Or someone made them.",
+        "But he said it like a promise. Like something he'd decided, not something he hoped.",
+        "Afterwards he walked me to the bunks. Before I lay down, he hugged me again, and he whispered it, so quietly I almost thought I'd imagined it:",
+        "   \"Elena 'Remembered' Vance would sound much better, wouldn't it?\"",
+        "I didn't have an answer. I just held on tighter.",
+        "Nobody's ever tried to give me a different name before. Only taken mine away.",
+        "Then he made sure I actually lay down. Pulled the blanket up like I was someone worth looking after.",
+        "I don't remember the last time someone did that.",
+        "I'm writing this in the dark so I don't lose it by morning.",
+        "I keep thinking about how it felt when he held me. I don't think that's how you feel about a friend.",
+        "And I keep thinking about everyone standing between us. Ashley, who hurt him. Pebble's brother, who he hurt. Pebble, who ran to me right beside him tonight, blaming himself for a heartbreak while the real reason sits locked away in a head that isn't allowed to remember it.",
+        "I don't know if what I'm feeling is allowed. I don't know who I'd even ask.",
+        "I think Ashley would laugh at me. Tell me to stop being an idiot. I hope she would.",
+        "I don't know what to do with any of it yet.",
+        "He remembered me today.",
+        "Elena Vance.\nElena Vance.\nElena \"Remembered\" Vance.",
+        "I'm trying it out. Just here, where nobody can see."
+      ],
+      "related": [
+        "elena-vance",
+        "r-weaver"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-049"
+      }
+    },
+    {
+      "id": "journal-50",
+      "category": "personal",
+      "title": "Journal Entry 50",
+      "summary": "Elena Vance.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 2,
+      "body": [
+        "Elena Vance.",
+        "Weaver asked if I'd like to talk with him every week.",
+        "Not a review. Not a session. Not ISD. Just him. Same time, same place, every week, for as long as I want.",
+        "I said yes before he finished the sentence. Then I spent the rest of the conversation trying to sound like I hadn't.",
+        "I don't think it worked. He smiled like he knew.",
+        "Every week. That means he's planning on remembering me next week. And the one after that. Nobody plans that far ahead with me. They can't. They'd have to remember to.",
+        "I wrote it on my calendar anyway. Then on my arm, under my name. Then here.",
+        "Part of me is scared. Weekly means routine, and routines are what I use to stay real. If he becomes one of those, and then one day he walks past me in the hallway like everyone else does, I don't know what I'll do.",
+        "Another part of me feels guilty. I'm sitting here happy while Pebble still thinks Ashley's gone because of him. I keep wondering if I should bring it up in one of our talks. If Weaver would want me to. If Pebble would.",
+        "Not yet. One thing at a time.",
+        "For now, I have somewhere to be every week, and someone who'll be waiting for me there.",
+        "I don't think I've had that since the town.",
+        "Elena Vance.\nElena \"Remembered\" Vance.",
+        "Same time next week."
+      ],
+      "related": [
+        "elena-vance",
+        "r-weaver"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-050"
+      }
+    },
+    {
+      "id": "journal-51",
+      "category": "personal",
+      "title": "Journal Entry 51",
+      "summary": "Elena Vance.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 3,
+      "body": [
+        "Elena Vance.",
+        "My hands are still shaking. I'm going to write it all down before any of it slips.",
+        "Pebble committed treason. Ethics found out. They gave Weaver a choice, if you can call it that: a Class-F or a bullet.",
+        "He couldn't do the bullet. So he did the other one.",
+        "Class-F. Everything. His name, his rank, his brother, Andrew, Ashley, me. All of it, gone.",
+        "I know what that is. I've lived the edge of it. Pebble got all of it at once, and the person who had to do it was the one man here who already knows what it's like to be made to hurt someone.",
+        "Weaver took me to a staircase today. He told me it's where they took him, back then. Down there. He said Pebble saved him on those stairs. I didn't know that. I don't think anyone did.",
+        "And then Pebble was there.",
+        "He didn't know us. He looked at the staircase and said there were friends down there. Family. He said it like he could hear them.",
+        "We tried to stop him. He went in anyway.",
+        "I ran after him. I didn't think. Weaver called after me, and when I didn't stop, he begged. I've never heard him sound like that.",
+        "So I came back.",
+        "We sat on the floor by those stairs and cried. Both of us. For hours. I don't know how long. Long enough that my eyes hurt and my voice was gone and he still had his arm around me.",
+        "I thought that was it. I thought we'd lost him twice in one day.",
+        "Then he came back up.",
+        "And he remembered.",
+        "He looked at us like he knew us. Because he did.",
+        "He told us what happened down there. Someone gave him something. A dose of Class-X.",
+        "Ashley's.",
+        "She carried it with her. She told me once, half-joking, that she kept it so she'd never forget me. I thought it was just one of her lines. I never thought she meant it. I never thought it was real.",
+        "It was real. And she gave it to him.",
+        "Wherever she is, whatever's down there, she was there. And she saved him.",
+        "Even after everything. After the order. After the heartbreak. After what it all cost her. She still chose to save him.",
+        "She did good, Ashley. You did good.",
+        "I want to believe that's who she really was, underneath everything the entity put in her. I think today she proved it.",
+        "I don't know what's at the bottom of those stairs. I don't know if I want to. Part of me wants to run down there right now and see if she's waiting. Weaver would stop me. He'd be right to.",
+        "But I know one thing now that I didn't know this morning.",
+        "She never forgot me either.",
+        "Elena Vance.\nElena Vance.\nAshley Archer.",
+        "Both of us. Written down. So neither of us gets lost."
+      ],
+      "related": [
+        "elena-vance",
+        "r-weaver",
+        "ashley-archer"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-051"
+      }
+    },
+    {
+      "id": "journal-52",
+      "category": "personal",
+      "title": "Journal Entry 52",
+      "summary": "Elena Vance.",
+      "year": null,
+      "tags": [
+        "journal"
+      ],
+      "clearance": 3,
+      "body": [
+        "Elena Vance.",
+        "I sent it. The real one, not the careful one. The one where I told him about his voice and the way he smells like the sea in a building that smells like disinfectant.",
+        "He didn't write back.",
+        "He didn't need to.",
+        "He kissed the tip of my nose. Then he put his hands on my face and just held it, and his thumbs went over my cheeks and my jaw and my forehead, slow, like he was reading me. It took me a moment to understand what he was doing.",
+        "He was learning me by touch. Because hands don't forget the way eyes do.",
+        "Nobody has ever thought of that. Not one person in all these years. Every single one of them tried to fix it by looking harder.",
+        "Then he said it.",
+        "   \"You are my kin. I protect what belongs to me.\"",
+        "I came apart. Right there, in his hands. Kin is the word the thing under the church took from me. My mother opened her own front door and asked if I was lost, and I have carried that for however many years it has been, and he handed the word back to me like it had been his to give all along. He didn't even make me ask.",
+        "I must have said something about the Foundation, about being owned, because he corrected me straight away.",
+        "   \"I don't take ownership the way the Foundation does. I do it the way family\n    does.\"",
+        "And then:",
+        "   \"I never had family. I chose you. The way I chose Pebble.\"",
+        "Pebble. After everything. After the brother. After the order Pebble doesn't even remember giving. He chose him anyway.",
+        "I keep turning that word over. Chosen. Not born into, not found, not written on a form somewhere. Chosen. There's no record to go blank. There's no file to come up empty. It isn't a thing that can be erased, because he has to keep deciding it, and he keeps deciding it.",
+        "He held me after that. Properly. My head against his chest, his fingers in my hair, and his heart just going along underneath my ear, steady and slow. He wasn't nervous. I was falling apart on him and his heart didn't even pick up. In. Out. In. Same as that night.",
+        "When I finally looked up he was looking straight back at me. Not near me. Not through me. At me. Green eyes, and this small soft thing happening on his face, and no edge to it anywhere.",
+        "I have no idea what to do with any of this. I don't know how to be someone's family. I'll be bad at it, probably. I'll check too often whether he still means it.",
+        "But I'm writing it down tonight, all of it, so that whatever happens to my head tomorrow, it happened.",
+        "He chose me.",
+        "Elena Vance.\nElena \"Remembered\" Vance.",
+        "Kin."
+      ],
+      "related": [
+        "elena-vance",
+        "r-weaver"
+      ],
+      "file": {
+        "designation": "ELENA-JRNL-052"
+      }
+    },
+    {
+      "id": "letter-pebble",
+      "category": "personal",
+      "title": "Unsent Letter to Pebble",
+      "summary": "Pebble,",
+      "year": null,
+      "tags": [
+        "letter"
+      ],
+      "clearance": 2,
+      "body": [
+        "Pebble,",
+        "I've told you it wasn't your fault so many times that you probably stopped hearing it. So I'm writing it down instead, because paper doesn't get tired of saying things.",
+        "You gave an order. She chose what to do with it. Whatever was in her that day was there long before you, and it would have found its way out with or without you. I know that. She knew that too.",
+        "I see how you carry it. I see you go quiet when someone says her name. You don't have to do that alone. I'm still here. You don't even need to remember me to know that.",
+        "Look after yourself, Major. That's an order from someone with no rank to give it.",
+        "– Elena"
+      ],
+      "related": [
+        "pebble-rose",
+        "elena-vance"
+      ]
+    },
+    {
+      "id": "letter-sterben",
+      "category": "personal",
+      "title": "Unsent Letter to Sterben",
+      "summary": "Andrew,",
+      "year": null,
+      "tags": [
+        "letter"
+      ],
+      "clearance": 2,
+      "body": [
+        "Andrew,",
+        "You've been quiet lately. Quieter than usual, and you're already quiet.",
+        "I know things got complicated. With Pebble, with her, with all of it. I'm not writing to fix any of that. I'm writing because I need you to know I notice. When you skip the cafeteria. When you don't joke on comms. I notice.",
+        "You're one of the few people who never needs a roll call to find me. Let me return the favour. If you go missing in your own head, I'll come looking. That's the rule now.",
+        "Nobody gets left behind. That includes you.",
+        "– Elena"
+      ],
+      "related": [
+        "andrew-spencer",
+        "elena-vance"
+      ]
+    },
+    {
+      "id": "letter-weaver-first",
+      "category": "personal",
+      "title": "First Letter to Weaver",
+      "summary": "Weaver,",
+      "year": null,
+      "tags": [
+        "letter"
+      ],
+      "clearance": 2,
+      "body": [
+        "Weaver,",
+        "I don't know how to start this, so I'll just say it: I'm not angry with you.",
+        "I know what she did to you. I know why you did what you did. I've thought about both more than I'd like to admit, and I still don't know where that leaves us.",
+        "You were on the other side of the worst thing she ever did. I was on the other side of the best things. I don't know how to fit both of those into one person, and I don't think you do either.",
+        "Maybe one day we'll talk about her. Maybe not. Either way, I didn't want you thinking I'd decided who you are. I haven't.",
+        "– E. Vance"
+      ],
+      "related": [
+        "r-weaver",
+        "elena-vance"
+      ]
+    },
+    {
+      "id": "letter-weaver-reply",
+      "category": "personal",
+      "title": "Reply to Weaver's Answer",
+      "summary": "Weaver,",
+      "year": null,
+      "tags": [
+        "letter"
+      ],
+      "clearance": 2,
+      "body": [
+        "Weaver,",
+        "I read your letter three times. Not because it was hard to understand, but because I wanted to make sure I'd remember it.",
+        "You don't need to worry about how it came across. It came across as genuine. Clinical, a little. But genuine.",
+        "You wrote that people deserve to be known. To be seen. To be remembered.",
+        "I don't think you know what that means to someone like me. Most people in this facility have to be reminded I exist. I write my name on my arm so I don't lose it. So when someone writes that line, and means it, I notice. I copied it into my journal. I hope you don't mind.",
+        "And it isn't selfish. If it is, then I'm selfish too.",
+        "You said you have no right to grieve her. You do. Grief doesn't ask permission, and it doesn't check who was closest first. You were part of her story, maybe more than anyone wanted you to be. That gives you as much right as anyone.",
+        "She left you a note. I don't know if you've read it more than once. I think she meant every word.",
+        "About what you said, that caring could become a weakness. You're probably right. I've seen what it does to people here, and I've felt what it does to me. But I've been forgotten by more people than I can count, and the only thing that ever brought me back was someone caring enough to say my name. So if it's a weakness, I'll keep it. I'd rather be weak and remembered than strong and gone.",
+        "I'll take you up on the offer to talk. Not now, maybe. But soon. I'll come to your wing. If you don't recognise me when I walk in, just ask. I'm used to it.",
+        "You don't need to decide what to think of me either. For now, I think we're two people who cared about the same facility and lost the same person in very different ways. That's enough to start with.",
+        "Thank you, Weaver. For answering. For being kind when you didn't have to be.",
+        "And it's Elena. You can call me Elena.",
+        "– Elena Vance"
+      ],
+      "related": [
+        "r-weaver",
+        "elena-vance"
+      ]
+    },
+    {
+      "id": "letter-hard-to-see",
+      "category": "personal",
+      "title": "Hard to See",
+      "summary": "Weaver,",
+      "year": null,
+      "tags": [
+        "letter",
+        "love letter"
+      ],
+      "clearance": 3,
+      "body": [
+        "Weaver,",
+        "I've started this letter four times. The others are in the bin, torn into pieces small enough that nobody could reassemble them, because I didn't trust myself to leave them whole.",
+        "This is the fifth. I'm sending this one before I can think better of it, so forgive me if it's badly ordered. I've written a great many things in my life that nobody has ever read. I've never written one that frightened me like this.",
+        "I'll start with the thing I've been avoiding for weeks, because if I bury it halfway down the page I'll lose my nerve before I reach it.",
+        "I can't stop thinking about you.",
+        "Not in a passing way. Not the way you think about a colleague you get on with. I mean that you are in my head constantly, and I have tried everything I know to get you out of it, and none of it has worked.",
+        "I count the days to our talks. I have never admitted that to anyone and I'm not sure I like admitting it now. Somewhere around day four I start looking forward to it, and by the day itself I've already rehearsed half of what I want to say to you, and then I get in there and say none of it and talk about something stupid instead, and afterwards I walk back to the barracks replaying the whole thing and inventing better versions of myself.",
+        "I think about you on patrol. In the middle of a sweep, clearing rooms, which is the one thing in my life I've always been able to do without my mind wandering anywhere. Not anymore. Something will remind me of something you said and I'll lose a second, and in my line of work a second is not a small thing, so you can take that as a measure of how far gone I am.",
+        "I think about you at 0300 when I can't sleep, which is most nights.",
+        "I even think about you while I'm writing in this journal, which was supposed to be the one place in the world that was only mine.",
+        "So. That's out. There's no taking it back now.",
+        "Let me tell you about the staircase, because I think that's where it stopped being something I could talk myself out of.",
+        "You didn't have to show me that place. You could have carried it to the end of your life and nobody would ever have known to ask, because nobody here asks. You took me down there and told me Pebble saved you on those steps, and I understood that you were handing me something you don't hand people. I don't think you realised what that did to me. I stood there holding it and didn't know where to put it down.",
+        "And then he walked past us and didn't know our faces.",
+        "You had to do that to him. They gave you a choice that wasn't a choice, and you took the one that left him breathing, and then you had to stand there afterwards while he looked at you like a stranger. There are men in this building who would have taken the easier option and slept fine. You took the one that hurt you and you've been carrying it ever since.",
+        "We sat on that floor and cried until my voice gave out. I don't know how long. Long enough that my legs went numb and I didn't care, long enough that someone could have walked past and seen us and I still wouldn't have moved.",
+        "And when he came back up those stairs and remembered, you cried for that too. Not simple relief. Something harder than that, something that cost you. I saw it and I haven't stopped seeing it.",
+        "That's when I knew. Not your first letter. Not the office. There, on the floor, with both of us wrecked and neither of us pretending otherwise.",
+        "Now let me tell you the rest, since I've gone this far.",
+        "Your office is the only room in this facility where I don't spend the whole time checking whether people still know I'm there. I don't do the thing I do everywhere else, the constant quiet arithmetic of whether I've started fading from the room. I just sit. I talk. I forget to be afraid.",
+        "Do you understand how rare that is? I can count the places I feel real on one hand and still have fingers left over. You gave me one of them without even knowing you'd done it.",
+        "Your voice. You call yourself clinical, and I've heard clinical. Clinical is the researcher who said \"the subject\" with me sitting three feet in front of him. Yours isn't that. Yours is steady, and low, and it does something to the inside of my head that nothing else does. When that thing cornered me and kept asking its ridiculous question, and I stopped being a person for a few minutes, it was your voice I found the way back on. In. Out. In. I still hear it on the bad nights. It still works. I don't think you know you did that.",
+        "And this is the part I would never say to your face.",
+        "Your cologne. Whatever it is, wherever you get it, it's the best thing in this building. Everything down here smells like filtered air and disinfectant and gun oil and other people's fear, and then there's you, and it's like someone opened a window onto the sea. Salt, cold air, something warmer underneath it.",
+        "I don't believe I grew up anywhere near the ocean. I've no way of checking, which you know. But that's where it takes me every single time, and some part of me that the thing under the church didn't manage to take must remember water, because my whole body goes quiet when I catch it.",
+        "That's what I had, that night. Not the room. Not the lights. Not the noise outside the door. That, and your heartbeat, and your voice counting me down.",
+        "I catch it in the corridor now and turn round before I can stop myself. Twice last week. It's becoming a problem and I don't want it solved.",
+        "You wrote to me once that people deserve to be known. To be seen. To be remembered. I read that line until the paper went soft at the folds. I copied it into my journal, which I hope you'll forgive, because I steal the things that keep me upright.",
+        "How does a man write that, after what was done to him in this building? After what he was made to do, in front of people who were watching, to prove he'd do it when told?",
+        "You of all people have every right to be the most closed-off man here. Instead you're the one who looked up and saw me standing in your doorway before I'd even knocked.",
+        "Nobody sees me, Weaver. The ISD waiting room didn't. I sat there twenty minutes, two officers walked past, one nearly sat down on top of me. Then I stood outside your door and you looked up.",
+        "You said you'd always remember me. People have said that to me before. They meant it, too, which is the worst part. Then they forgot, or someone made them forget, and the ones who promised hardest were usually the ones who went first.",
+        "You didn't say it like a comfort. You said it like a decision you'd already made.",
+        "And then you whispered that other thing to me. Elena \"Remembered\" Vance. You probably thought I was too far gone to hold onto it. I wrote it down the moment you were out of the room, in the dark, and I have looked at it more times than I'm willing to put in writing.",
+        "Nobody has ever tried to give me a different name. Only to take the one I have.",
+        "I know what stands between us. I'm not going to write this letter and pretend it isn't there.",
+        "Ashley hurt you. Badly. Because she was told to, and because part of her, the part that thing made, wanted to. And I loved her anyway. Both of those are true at the same time and I've stopped trying to make them sit neatly beside one another, because they won't, and I've learned to carry things that don't fit.",
+        "You told me you don't hate her. I believed you then, and I believe you now, and I think it may be the most generous thing anyone in this place has ever given me. You had every right to make me choose and you never once did.",
+        "But I'd be lying to you if I said that was all this is now. It stopped being only that a long while ago. I think I've known since the staircase, and I've simply been too much of a coward to write it down.",
+        "So here it is, written down, which is the only way I know how to make something real. If it isn't on paper I can't trust that it happened.",
+        "Here's what frightens me, since I seem to be telling you everything tonight.",
+        "Not that you'll say no. I could take no. I've taken worse, and at least a no is a thing I could write down and keep.",
+        "What frightens me is that this will be the best thing in my life and then one morning you'll look at me with that polite, searching expression people get when they're trying to place a face, and I'll have to introduce myself to you. That's the one I can't bear. Everything good I've had has gone that way eventually, and this is the first thing in years I'd actually grieve.",
+        "But I'd still rather have it. That's what I've worked out, sitting here at this desk for the last hour. I'd rather have you for a while and lose you than keep carefully not having you forever.",
+        "I'm not asking you for anything. I genuinely don't know what I'd be asking for. I only know that you are the one person in this entire facility I don't have to prove I exist to, and I'd rather you heard that from me than worked it out on your own and said nothing out of kindness.",
+        "If I've misread every quiet moment between us, say so plainly. You've never been anything but honest with me and I'd want it now. I'll put this where the other four went and I'll never mention it again, and I won't let it change a thing between us. You have my word, and my word is one of the few things of mine that nothing has managed to take.",
+        "But if I haven't misread it, then come and find me. You know where I'll be. I'm not hard to find, only hard to see.",
+        "Same time next week, either way.",
+        "Yours,\nElena"
+      ],
+      "related": [
+        "r-weaver",
+        "elena-vance",
+        "ashley-archer",
+        "pebble-rose"
+      ]
+    },
+    {
+      "id": "droppable-notes",
+      "category": "personal",
+      "title": "Droppable Notes",
+      "summary": "   Elena Vance was here.    If you're reading this, you remembered. Thank you.",
+      "year": null,
+      "tags": [
+        "notes"
+      ],
+      "clearance": 1,
+      "body": [
+        "   Elena Vance was here.\n   If you're reading this, you remembered. Thank you.",
+        "   ---",
+        "   Don't forget me.\n   – E.V.",
+        "   ---",
+        "   You've met me before.\n   You just don't remember.\n   Elena. Nu-7. Black coffee.",
+        "   ---",
+        "   Say my name sometime.\n   It helps.\n   – Elena",
+        "   ---",
+        "   MEETING NOTE (coordinates version):",
+        "   Weaver,\n   You said I could come talk to you whenever. I'd rather it be somewhere quiet.\n   X [____] / Y [____] / Z [____]\n   If you don't see me at first, just say my name."
+      ],
+      "related": [
+        "elena-vance"
+      ]
     }
   ]
 }
