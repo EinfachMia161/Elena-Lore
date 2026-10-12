@@ -52,9 +52,19 @@
       localStorage.setItem(JOURNAL_KEY, JSON.stringify(journal));
       return true;
     } catch {
-      alert('Could not save to this browser. Use Export to keep a copy of your journal.');
+      toast('Could not save in this browser. Copy your logs before leaving.');
       return false;
     }
+  }
+
+  // Inline status message. alert() and confirm() are blocked in some viewers, so the page uses this instead.
+  let toastTimer = null;
+  function toast(message) {
+    const el = document.getElementById('toast');
+    el.textContent = message;
+    el.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { el.hidden = true; }, 3000);
   }
 
   function loadClearance() {
@@ -265,7 +275,7 @@
       <p class="lead">Field notes, incident reports and personal logs. Stored in this browser.</p>
       <div class="toolbar">
         <a class="btn primary" href="#/journal/new">New log</a>
-        <button class="btn" data-action="export">Export JSON</button>
+        <button class="btn" data-action="export">Copy JSON</button>
         <label class="btn" style="cursor:pointer">Import JSON<input id="import-file" type="file" accept="application/json,.json" hidden></label>
       </div>
       ${list}`;
@@ -300,7 +310,7 @@
           <li><a href="#/lore/${e.id}"><strong>${esc(e.title)}</strong></a></li>`).join('')}</ul></div>` : ''}
         <div class="actions">
           <a class="btn" href="#/journal/${j.id}/edit">Amend</a>
-          <button class="btn danger" data-action="delete" data-id="${j.id}">Expunge</button>
+          <button class="btn danger" data-action="delete" data-id="${j.id}" data-armed="no">Expunge</button>
         </div>
       </article>`;
   }
@@ -479,18 +489,23 @@
 
     if (action === 'delete') {
       const j = journalById(btn.dataset.id);
-      if (j && confirm(`Expunge “${j.title}”? This cannot be undone.`)) {
-        journal = journal.filter((x) => x.id !== j.id);
-        if (saveJournal()) location.hash = '#/journal';
+      if (!j) return;
+      // Two-step confirm built into the page: the first click arms the button, the second expunges.
+      if (btn.dataset.armed !== 'yes') {
+        btn.dataset.armed = 'yes';
+        btn.textContent = 'Click again to expunge';
+        return;
+      }
+      journal = journal.filter((x) => x.id !== j.id);
+      if (saveJournal()) {
+        toast(`Expunged ${logLabel(j)}.`);
+        location.hash = '#/journal';
       }
     } else if (action === 'export') {
-      const blob = new Blob([JSON.stringify({ version: 2, exported: new Date().toISOString(), journal }, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = Object.assign(document.createElement('a'), { href: url, download: `elena-logs-${today()}.json` });
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      const text = JSON.stringify({ version: 2, exported: new Date().toISOString(), journal }, null, 2);
+      navigator.clipboard.writeText(text)
+        .then(() => toast(`Copied ${journal.length} logs as JSON.`))
+        .catch(() => toast('Copy is blocked in this view. Open the page in a browser tab to copy.'));
     }
   });
 
@@ -516,11 +531,11 @@
         valid.forEach((j) => byId.set(j.id, j));
         journal = [...byId.values()];
         if (saveJournal()) {
-          alert(`Imported ${valid.length} logs.`);
+          toast(`Imported ${valid.length} logs.`);
           route();
         }
       } catch (err) {
-        alert(`Could not import: ${err.message}`);
+        toast(`Could not import: ${err.message}`);
       }
     };
     reader.readAsText(file);
@@ -539,7 +554,6 @@
     })
     .then((data) => {
       lore = data;
-      document.title = `${lore.title}: Foundation Archive`;
       buildXrefs();
       route();
     })

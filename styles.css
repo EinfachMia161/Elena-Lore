@@ -1,5 +1,6 @@
 /* Foundation-style archive theme: dark, clinical, document-first. */
 :root {
+  color-scheme: dark;
   --bg: #121315;
   --panel: #1b1d20;
   --panel-2: #23262a;
@@ -22,6 +23,7 @@
 }
 
 :root[data-theme="light"] {
+  color-scheme: light;
   --bg: #eceae3;
   --panel: #f7f6f1;
   --panel-2: #e6e3d8;
@@ -71,7 +73,7 @@ code {
 /* Header */
 .site-header {
   position: sticky;
-  top: 0;
+  top: env(safe-area-inset-top, 0px);
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
@@ -106,6 +108,21 @@ code {
   padding: 2rem 1rem 3rem;
   flex: 1;
 }
+.toast {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 1rem);
+  max-width: calc(100% - 2rem);
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: .6rem 1rem;
+  font: .85rem var(--mono);
+  z-index: 20;
+}
+
 .site-footer {
   font: .8rem var(--mono);
   color: var(--muted);

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Elena Vance: Foundation Archive</title>
+  <title>Elena Vance Archive</title>
   <meta name="description" content="Foundation-style archive for Elena Vance's lore, with personal logs.">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -32,8 +32,10 @@
   <main id="app" class="wrap"></main>
 
   <footer class="site-footer">
-    Documents live in <code>data/lore.json</code>. Personal logs are saved in this browser; use Export to keep a copy.
+    Personal logs are saved in this browser only. Use Copy JSON on the Personal Logs page to keep a backup.
   </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
   <script src="app.js"></script>
 </body>
