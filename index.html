@@ -3,25 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Elena Vance: Lore</title>
-  <meta name="description" content="The lore archive for Elena Vance, with a personal journal.">
+  <title>Elena Vance: Foundation Archive</title>
+  <meta name="description" content="Foundation-style archive for Elena Vance's lore, with personal logs.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#/">Elena Vance</a>
+    <a class="brand" href="#/">Elena Vance <span>Archive</span></a>
     <nav class="site-nav">
-      <a href="#/lore">Lore</a>
-      <a href="#/timeline">Timeline</a>
-      <a href="#/journal">Journal</a>
+      <a href="#/lore">Documents</a>
+      <a href="#/timeline">Chronology</a>
+      <a href="#/journal">Personal Logs</a>
     </nav>
-    <input id="search" class="search" type="search" placeholder="Search…" aria-label="Search lore and journal" autocomplete="off">
+    <div class="header-tools">
+      <label class="clearance">Clearance
+        <select id="clearance" aria-label="Your clearance level">
+          <option value="1">Level 1</option>
+          <option value="2">Level 2</option>
+          <option value="3">Level 3</option>
+          <option value="4">Level 4</option>
+          <option value="5">Level 5</option>
+        </select>
+      </label>
+      <input id="search" class="search" type="search" placeholder="Search…" aria-label="Search archive and logs" autocomplete="off">
+    </div>
   </header>
 
   <main id="app" class="wrap"></main>
 
   <footer class="site-footer">
-    Lore lives in <code>data/lore.json</code>. Journal entries are saved in this browser; use Export to keep a copy.
+    Documents live in <code>data/lore.json</code>. Personal logs are saved in this browser; use Export to keep a copy.
   </footer>
 
   <script src="app.js"></script>

@@ -1,37 +1,57 @@
 {
   "title": "Elena Vance",
-  "subtitle": "The lore archive. Everything about Elena, her world and her story in one place.",
+  "subtitle": "Foundation Archive. Documents, chronology and personal logs for the Elena Vance file.",
   "categories": [
-    { "id": "characters", "name": "Characters", "blurb": "The people in Elena's life, and Elena herself." },
-    { "id": "places", "name": "Places", "blurb": "Cities, realms and landmarks." },
-    { "id": "factions", "name": "Factions", "blurb": "Groups, orders and allegiances." },
-    { "id": "events", "name": "Events", "blurb": "What happened, and when." },
-    { "id": "items", "name": "Items & Artifacts", "blurb": "Objects that matter." },
-    { "id": "concepts", "name": "Concepts", "blurb": "Magic, customs and how the world works." }
+    { "id": "characters", "name": "Personnel & Subjects", "blurb": "People on file, including Elena." },
+    { "id": "places", "name": "Sites & Locations", "blurb": "Facilities, cities and landmarks." },
+    { "id": "factions", "name": "Organizations", "blurb": "Groups, orders and allegiances." },
+    { "id": "events", "name": "Incidents", "blurb": "What happened, and when." },
+    { "id": "items", "name": "Objects", "blurb": "Items and artifacts under containment." },
+    { "id": "concepts", "name": "Phenomena & Theory", "blurb": "How the anomalous world works." }
   ],
   "entries": [
     {
       "id": "elena-vance",
       "category": "characters",
       "title": "Elena Vance",
-      "summary": "PLACEHOLDER. The protagonist. Replace this summary with her canon description.",
+      "summary": "PLACEHOLDER. Replace with Elena's canon file summary.",
       "year": null,
-      "tags": ["protagonist"],
+      "tags": ["personnel"],
+      "clearance": 1,
+      "file": {
+        "designation": "PERS-E-01",
+        "objectClass": "Safe",
+        "containment": [
+          "PLACEHOLDER. Containment or handling procedures for this file go here."
+        ],
+        "addenda": [
+          "PLACEHOLDER addendum. Example of a redacted line: the codename is [[Vantablack]].",
+          "PLACEHOLDER addendum. Restricted addenda can be given a higher clearance in the file's clearance field."
+        ]
+      },
       "body": [
-        "This is a placeholder entry. Edit data/lore.json to replace it with Elena's real backstory.",
-        "Any entry's title that appears in a paragraph here is automatically linked to that entry."
+        "This is a placeholder file. Edit data/lore.json to replace it with the real record.",
+        "Any file title mentioned in another document links to it automatically. Text in [[double brackets]] is redacted and reveals on click."
       ],
-      "related": []
+      "related": ["placeholder-incident"]
     },
     {
-      "id": "placeholder-event",
+      "id": "placeholder-incident",
       "category": "events",
-      "title": "A placeholder event",
-      "summary": "PLACEHOLDER. Add a year to place an event on the timeline.",
+      "title": "Placeholder incident",
+      "summary": "PLACEHOLDER. Add a year to place this incident on the chronology.",
       "year": null,
-      "tags": [],
+      "tags": ["incident"],
+      "clearance": 3,
+      "file": {
+        "designation": "INC-0000",
+        "objectClass": "Euclid",
+        "containment": [],
+        "addenda": []
+      },
       "body": [
-        "Events with a numeric year appear on the timeline, sorted chronologically. Undated entries are listed at the bottom."
+        "This file is clearance Level 3. Clearance 1 and 2 readers see only the restricted notice.",
+        "Undated files are listed at the bottom of the chronology. Files with a numeric year appear in order."
       ],
       "related": ["elena-vance"]
     }
