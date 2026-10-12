@@ -1,0 +1,39 @@
+{
+  "title": "Elena Vance",
+  "subtitle": "The lore archive. Everything about Elena, her world and her story in one place.",
+  "categories": [
+    { "id": "characters", "name": "Characters", "blurb": "The people in Elena's life, and Elena herself." },
+    { "id": "places", "name": "Places", "blurb": "Cities, realms and landmarks." },
+    { "id": "factions", "name": "Factions", "blurb": "Groups, orders and allegiances." },
+    { "id": "events", "name": "Events", "blurb": "What happened, and when." },
+    { "id": "items", "name": "Items & Artifacts", "blurb": "Objects that matter." },
+    { "id": "concepts", "name": "Concepts", "blurb": "Magic, customs and how the world works." }
+  ],
+  "entries": [
+    {
+      "id": "elena-vance",
+      "category": "characters",
+      "title": "Elena Vance",
+      "summary": "PLACEHOLDER. The protagonist. Replace this summary with her canon description.",
+      "year": null,
+      "tags": ["protagonist"],
+      "body": [
+        "This is a placeholder entry. Edit data/lore.json to replace it with Elena's real backstory.",
+        "Any entry's title that appears in a paragraph here is automatically linked to that entry."
+      ],
+      "related": []
+    },
+    {
+      "id": "placeholder-event",
+      "category": "events",
+      "title": "A placeholder event",
+      "summary": "PLACEHOLDER. Add a year to place an event on the timeline.",
+      "year": null,
+      "tags": [],
+      "body": [
+        "Events with a numeric year appear on the timeline, sorted chronologically. Undated entries are listed at the bottom."
+      ],
+      "related": ["elena-vance"]
+    }
+  ]
+}
