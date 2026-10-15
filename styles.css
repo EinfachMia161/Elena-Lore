@@ -11,10 +11,10 @@
   --stamp: #c4604f;
   --hl: rgba(224, 189, 85, .18);
   --redact: #0d0d0b;
-  --serif: "Literata", Georgia, "Iowan Old Style", serif;
-  --hand: "Caveat", "Bradley Hand", "Segoe Script", cursive;
-  --type: "Courier Prime", "Courier New", monospace;
-  --stamp-face: "Special Elite", "Courier Prime", "Courier New", monospace;
+  --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --hand: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --type: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace;
+  --stamp-face: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace;
 }
 
 :root[data-theme="light"] {
